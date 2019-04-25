@@ -1,0 +1,65 @@
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2, h3 {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.imgCircle {
+  height: 100%;
+  padding: 5px;
+  background-color: white;
+}
+
+.imgText {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+.generatorImage {
+  background-color: white;
+  height: 15%;
+  padding-left: 20%;
+}
+
+#generator {
+  clear: both;
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: white;
+  height: 600px;
+}
+
+#linkData {
+  background-color: yellow;
+  width: 49%;
+  border: 1px solid black;
+  float: left;
+}
+
+#linkInput {
+  background-color: yellow;
+  width: 49%;
+  border: 1px solid black;
+  float: left;
+}
+
+@media only screen and (min-width: 700px) {
+  .generatorImage {
+    background-color: red;
+    width: 10%;
+    margin: 0.6%;
+    float: left;
+  }
+
+  #generator {
+    margin: 0;
+    padding: 0;
+  }
+}

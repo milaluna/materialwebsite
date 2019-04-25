@@ -1,0 +1,68 @@
+.descriptionTitle {
+  font-size: 0.9rem;
+}
+
+.descriptionText {
+  font-size: 0.9rem;
+}
+
+.imgCircle {
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+}
+
+#topPage div div{
+  background-color: red;
+  display: inline-block;
+}
+
+#chosenElement {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  /* float: left; */
+}
+
+#inspiration {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  /* float: left; */
+}
+
+#elementLinks {
+  /* background-color: lightgrey; */
+  width: 100%;
+  border: 1px solid black;
+  height: 50%;
+}
+
+#elementLinks ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#navigation {
+  width: 100%;
+  border: 1px solid black;
+}
+
+#navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#navigation ul li {
+  padding: 15px;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+#navigation ul li:hover {
+  background-color: lightgrey
+}
