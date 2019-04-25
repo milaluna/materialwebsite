@@ -36,18 +36,22 @@ h2, h3 {
   height: 600px;
 }
 
-#linkData {
-  background-color: yellow;
-  width: 49%;
-  border: 1px solid black;
-  float: left;
+#wrapper ul{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#wrapper ul li{
+  text-decoration: none;
+  display: inline-block;
 }
 
-#linkInput {
+#wrapper a {
+  text-align: center;
   background-color: yellow;
-  width: 49%;
+  padding: 10px auto;
+  display: inline-block;
   border: 1px solid black;
-  float: left;
 }
 
 @media only screen and (min-width: 700px) {
