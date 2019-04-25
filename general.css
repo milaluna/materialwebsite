@@ -1,6 +1,8 @@
 .centeredContainer{
-  max-width: 1020px;
+  /* max-width: 1020px; */
   margin: 0px auto;
+  padding: auto;
+  text-align: center;
 }
 
 body{
