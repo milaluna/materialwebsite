@@ -68,6 +68,10 @@ h2, h3 {
     background-color: transparent;
   }
 
+  .imgText{
+    font-size: 0.8rem;
+  }
+
   #generator {
     margin: 0;
     padding: 0;
